@@ -1,0 +1,61 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-family: "lATO", sans-serif;
+  line-height: 1.8em;
+  color: #666;
+}
+
+.pimg1 {
+  background-image: url(./images/image1.jpg);
+  min-height: 100%;
+}
+.pimg2 {
+  min-height: 400px;
+  background-image: url(./images/image2.jpg);
+}
+.pimg3 {
+  background-image: url(./images/image3.jpg);
+  min-height: 400px;
+}
+.pimg1,
+.pimg2,
+.pimg3 {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.ptext {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: black;
+  font-size: 27px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+.textBg {
+  background-color: rgba(255, 255, 255, 0.418);
+  backdrop-filter: blur(0px) saturate(50%) contrast(180%);
+  border-radius: 10em;
+  padding: 1em;
+  margin: 1.4em 0;
+  box-shadow: rgb(28 32 93 /24%) 0px 2px 8px 0px;
+}
+.section {
+  padding: 50px 80px;
+  text-align: center;
+}
+.section-light {
+  background: #121212;
+  columns: gray;
+}
+.section-dark {
+  background-color: #282e34;
+  color: #ddd;
+}
